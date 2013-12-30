@@ -1,0 +1,22 @@
+<html>
+<head>
+   <title>HiveTool</title>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-8859-1">
+   <meta name="description" content="HiveTool">
+   <META name="keywords" content="">
+   <meta name="robots" CONTENT="all">
+</head>
+
+
+<body>
+
+<img src=daily_filtered.gif>
+<img src=daily_raw.gif>
+<p>
+
+
+<!--#include virtual="daily_raw.html" -->
+
+
+</body>
+</html>

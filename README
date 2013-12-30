@@ -5,6 +5,6 @@ graph_hive_variable.pl
 
 
 axestype.pm
-patched version of axestype.pm as per https://rt.cpan.org/Public/Bug/Display.html?id=62665
- (adjust_axes.diff  Min_range_fix.diff) dual y axes
-copy to the /usr/local/share/perl/5.14.2/GD/Graph/ directory after GD::Graph is installed
+patched axestype.pm as per https://rt.cpan.org/Public/Bug/Display.html?id=62665
+ (adjust_axes.diff  Min_range_fix.diff) to plot a graph with two y axes with different zeros.
+Copy to the /usr/local/share/perl/5.14.2/GD/Graph/ directory after GD::Graph is installed.

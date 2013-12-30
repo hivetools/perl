@@ -1,0 +1,22 @@
+<html>
+<head>
+   <title>HiveTool</title>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-8859-1">
+   <meta name="description" content="Beehive scale">
+   <META name="keywords" content="">
+   <meta name="robots" CONTENT="all">
+</head>
+
+
+<body>
+
+<img src=all_filtered.gif>
+<img src=all_raw.gif>
+<p>
+
+
+<!--#include virtual="daily_raw.html" -->
+
+</body>
+</html>
+

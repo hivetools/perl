@@ -1,0 +1,24 @@
+<html>
+<head>
+   <title>HiveTool</title>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-8859-1">
+   <meta name="description" content="Monitor hive weight with electronic scale">
+   <META name="keywords" content="Bee hive scale hivetool monitor data">
+   <meta name="robots" CONTENT="all">
+   <meta http-equiv="refresh" content="303" >
+</head>
+
+
+<body bgcolor=#DDDDDD>
+
+<center>
+Hivetool Server Status ver 0.1
+</center>
+<table align=center bgcolor=#EEEEEE cellpadding=16px>
+ <tr><td>
+<pre>
+     <!--#include virtual="server_status.txt" -->
+</pre>
+ </td></tr></table>
+</body>
+</html>
