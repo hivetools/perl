@@ -1,0 +1,76 @@
+<form action="/download_form.pl" method="post">
+<center>
+<h1>Hivetool</h1>
+
+<h2>Data Download</h2>
+<h3>Version 0.1</h3>
+</center>
+
+<table align=center border=1 cellpadding=10>
+ <tr>
+  <td valign=top>
+    <h3>Format</h3>
+  </td>
+  <td>
+    <input type="radio" name="format" value="nasa" checked>NASA Honey Bee Net<br>
+    <input type="radio" name="format" value="raw">raw<br>
+   </td>
+   <td>
+   </td>   
+  </tr>
+
+  <tr>
+   <td valign=top>
+    <h3>Options</h3>
+  </td>
+  <td>
+    <div>Weight Threshold: <input name="weight_threshold" value= 1 size="25"></div>
+    <input type="checkbox" name="print_detail" value="1">Print Details<br>
+   </td>
+   <td>
+   </td>   
+  </tr>
+
+
+  <tr>
+   <td valign=top>
+    <h3>Date Range</h3>
+  </td>
+  <td align=right>
+   <div>Start Date: <input name="start_date" size="25"></div>
+   <div>End Date: <input name="end_date" size="25"></div>
+   </td>
+   <td>
+    MM/DD/YYYY<br>
+    Leave blank for all data
+   </td>   
+  </tr>
+  <tr>
+   <td valign=top>
+    <h3>Comments</h3>
+  </td>
+  <td>
+    <input type="checkbox" name="comments" value="include" checked>Include Comments<br>
+   </td>
+   <td>
+   </td>   
+  </tr>
+  <tr>
+   <td valign=top>
+    <h3>Graph</h3>
+  </td>
+  <td>
+    <input type="checkbox" name="graph" value="include" checked>Include Graph<br>
+    <div align=right>Width: <input name="width" size="25"></div>
+    <div align=right>Height: <input name="height" size="25"></div>
+   </td>
+   <td>
+   </td>   
+  </tr>
+  <tr>
+   <td colspan=3 align=center>
+     <input type="submit">
+   </td>
+  </tr>
+</table>
+</form>
