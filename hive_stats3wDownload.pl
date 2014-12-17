@@ -652,26 +652,20 @@ my ($database, $user, $password);
 
 if ( $data_source eq "dev" ) 
    {
-   $database = "hivetool_raw_dev1:woodhollow.netfirmsmysql.com:3306";
-   $user = "beehive";
-   $password = "2Bee|~2beE";
+   $database = "";
+   $user = "";
+   $password = "";
    }
 elsif  ( $data_source eq "prod" )
    {
-   $database = "hivetool_raw:woodhollow.netfirmsmysql.com:3306";
-   $user = "hivetool";
-   $password = "hivetool";
+   $database = "";
+   $user = "";
+   $password = "";
    }
 elsif ( $data_source eq "local" )
    {
    $database = "hivetool_raw:localhost:3306";
    $user = "root";
-   $password = "raspberry"; 
-   }
-elsif ( $data_source eq "test" )
-   {
-   $database = "hivetool_test:localhost:3306";
-   $user = "apache";
    $password = "raspberry"; 
    }
 
